@@ -1,0 +1,46 @@
+/* Write your custom CSS here */
+
+#app, .layout {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.logo-header {
+  margin-bottom: 10px;
+}
+.sign-in-logo {
+  vertical-align: bottom;
+  width: 160px;
+}
+
+.footer-text {
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 11px !important;
+}
+
+.footer-text img {
+  margin: 0 5px;
+  width: 88px;
+
+}
+
+.header-title {
+  font-size: 1.5em;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.brand-color-bg {
+  background: #45A3CF;
+}
+
+.signin-page .card {
+  min-width: 350px;
+}

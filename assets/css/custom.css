@@ -44,3 +44,40 @@ a:hover {
 .signin-page .card {
   min-width: 350px;
 }
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.dashboard-beta {
+  position: relative;
+  left: -6px;
+  top: 2px;
+}
+
+.dashboard-beta small {
+  color: orange;
+}
+
+.fixed-sidebar {
+  overflow: auto;
+  padding-bottom: 96px;
+}
+
+.mn-content.fixed-sidebar .mn-inner {
+  padding-left: 245px !important;
+  width: 100%;
+}
+
+@media(max-width: 1150px) {
+  .middle-content {
+    width: 100% !important;
+  }
+}
+
+.card-input {
+  /* background: pink; */
+  /* height: 3rem; */
+  border-bottom: 1px solid #BCBCBC;
+}

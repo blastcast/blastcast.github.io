@@ -95,3 +95,7 @@ a:hover {
 .dialog-content {
   padding: 20px;
 }
+
+.user-edit-icon {
+  cursor: pointer;
+}

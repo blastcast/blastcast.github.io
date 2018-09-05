@@ -48,6 +48,7 @@ a:hover {
 .page-footer {
   position: fixed;
   bottom: 0;
+  z-index: 4;
 }
 
 .dashboard-beta {
@@ -84,4 +85,13 @@ a:hover {
 
 .sidebar-avatar {
 
+}
+
+.users .btn-floating {
+  float: right;
+  margin-bottom: 23px;
+}
+
+.dialog-content {
+  padding: 20px;
 }

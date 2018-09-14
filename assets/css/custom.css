@@ -99,3 +99,9 @@ a:hover {
 .user-edit-icon {
   cursor: pointer;
 }
+
+p.error {
+  text-align: center;
+  color: white !important;
+  background: #e94c4c;
+}

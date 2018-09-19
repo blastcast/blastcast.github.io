@@ -11,10 +11,13 @@ a:hover {
 }
 
 .logo-header {
+  width: 150px;
   margin-bottom: 10px;
 }
-.sign-in-logo {
-  vertical-align: bottom;
+
+.page-top-logo {
+  position: absolute;
+  left: 20px; top: 20px;
   width: 160px;
 }
 
@@ -94,6 +97,7 @@ a:hover {
 
 .dialog-content {
   padding: 20px;
+  position: relative;
 }
 
 .user-edit-icon {
@@ -104,4 +108,40 @@ p.error {
   text-align: center;
   color: white !important;
   background: #e94c4c;
+}
+
+.bulk-email-text {
+  height: 300px;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.bulk-mode-checkbox {
+  position: absolute !important;
+  right: 46px;
+  top: -30px;
+}
+
+.register h3 {
+  font-weight: 100;
+}
+
+.field-good {
+  position: absolute;
+  top: 9px;
+  right: -19px;
+  color: #8bc34a;
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+.field-good.active {
+  opacity: 1;
+}
+
+.register.success .os-image {
+  display: block;
+  width: auto;
+  height: 100px;
+  margin: 20px auto;
 }

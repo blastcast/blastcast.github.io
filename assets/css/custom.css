@@ -145,3 +145,9 @@ p.error {
   height: 100px;
   margin: 20px auto;
 }
+
+.missing-error {
+  border-bottom-color: red !important;
+  border-bottom-width: 2px;
+  transition: all .3s ease;
+}
